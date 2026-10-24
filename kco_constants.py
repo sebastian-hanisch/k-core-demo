@@ -66,7 +66,7 @@ PRESETS = {
     "Unser eigenes Link-Netz": {"netztyp": T_LINK, "n": DEFAULT_N, "c": DEFAULT_C, "seed": DEFAULT_SEED},
 }
 PRESET_HELP = {
-    "Zufallsnetz (Voreinstellung)": "120 Knoten, im Mittel 6 Nachbarn: mehrere Schalen, der Grad sagt fast dasselbe wie die Kernzahl.",
+    "Zufallsnetz (Voreinstellung)": "120 Knoten, im Mittel 6 Nachbarn: fünf Schalen; der Grad ordnet die Knoten nur mäßig wie die Kernzahl (Rangkorrelation 0,65).",
     "Lehrbeispiel zum Schälen": "Zehn Knoten von Hand: Dreieck mit zwei Anhängern, ein vollständiger Vierer, ein einzelner Knoten. Schritt für Schritt nachvollziehbar.",
     "Hubs am Rand": "Dichter Kern, dazu fünf Hubs mit vielen Blättern am Rand: hoher Grad, aber Kernzahl 1. Das Netz ist so gebaut, dass die Kernzahl gegen den Grad gewinnt.",
     "Skalenfrei: Kernzahl konstant": "Jeder neue Knoten bringt m Kanten mit: alle Knoten liegen im m-Kern, die Kernzahl ist überall gleich und sagt nichts.",
